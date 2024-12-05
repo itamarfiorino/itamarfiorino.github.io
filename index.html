@@ -1,7 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itamar G Fiorino</title>
+    <style>
+        body {
+            font-family: "Garamond", "Times New Roman", serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+        }
+        .profile-img {
+            float: left;
+            max-width: 300px;
+            border-radius: 5px;
+            margin: 0 2rem 1rem 0;
+        }
+        h1, h2 {
+            color: #2c5282;
+            font-family: "Palatino", "Palatino Linotype", serif;
+            clear: right;
+        }
+        a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            overflow: hidden;
+        }
+        .project-section {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
 <body>
-<h1>Itamar Fiorino</h1>
-<p>I am an undergraduate at Brown University studying Applied Math en route to a Masters Degree.</p>
+    <div class="intro">
+        <img src="bilbao.jpg" alt="Itamar Fiorino" class="profile-img" />
+        <h1>Itamar G Fiorino</h1>
+        <p>Hello! I'm completing my master's in Applied Mathematics and AB in Applied Mathematics-Economics at Brown University. My research interests lie at the intersection of probability and statistics, with a focus on quasi-stationary distributions and high-dimensional statistics. I'm currently applying to PhD programs in probability and statistics.</p>
+    </div>
+
+    <h2>Projects</h2>
+    <p>Here's what I'm currently working on:</p>
+    
+    <div class="project-section">
+        <p><strong>Thesis: Quasi-Stationary Distributions and Particle Systems</strong><br>
+        I'm developing new methods for sampling QSDs using particle systems that can swap between forward and backward dynamics. <a href="thesis.pdf">Read the draft</a></p>
+        
+        <p><strong>2-D Kuramoto-Sivashinsky Equation</strong><br>
+        Studying the properties and numerical solutions of this chaotic PDE, with a focus on its pattern formation. <a href="ks-equation.pdf">View project</a></p>
+    </div>
+
+    <p>Personal projects:</p>
+    
+    <div class="project-section">
+        <p><strong>JAX Transformer Implementation</strong><br>
+        Built a transformer from scratch to better understand modern NLP architectures. <a href="https://github.com/yourusername/transformer">Check it out on GitHub</a></p>
+        
+        <p><strong>PINNs for Crack Detection</strong><br>
+        Used physics-informed neural networks to solve an inverse problem: identifying surface cracks using ultrasonic wave refraction. <a href="pinns-presentation.pdf">See the presentation</a></p>
+    </div>
+
+    <h2>Current Research Areas</h2>
+    <ul>
+        <li>Quasi-stationary distributions of Markov chains</li>
+        <li>High-dimensional statistics and uncertainty quantification</li>
+    </ul>
+
+    <h2>Other Interests</h2>
+    <ul>
+        <li>Analysis and differential geometry, particularly as they apply to probability and statistics</li>
+    </ul>
 </body>
 </html>
